@@ -21,6 +21,10 @@ https://tzutalin.github.io/labelImg/
 
 위는 다운로드 링크입니다.
 
+![image](https://user-images.githubusercontent.com/50165842/88174852-eab65a00-cc5f-11ea-9a20-dd26c5910a50.png)
+
+위와 같은 프로그램이 실행되서 라벨링을 하시면 됩니다.
+
 ## Data를 TfRecord 타입으로 변환시킨다.
 
     !python xml_to_csv.py
