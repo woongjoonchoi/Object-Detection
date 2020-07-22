@@ -2,10 +2,24 @@
 
 Tensorflow ObejectDetection API를 사용해본 것입니다.
 
+
+
 ## DataSet을 만든다
+
+
 
 DateSet은 각자 알아서 구하시면 됩니다.
 저는 제가 직접 구한 face data를 사용하였습니다.
+
+
+## 이미지 라벨링 하기
+https://github.com/tzutalin/labelImg
+
+labelimg라는 프로그램을 제공해주는 깃헙입니다.
+
+https://tzutalin.github.io/labelImg/
+
+위는 다운로드 링크입니다.
 
 ## Data를 TfRecord 타입으로 변환시킨다.
 
