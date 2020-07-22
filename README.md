@@ -59,3 +59,6 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 ## Config파일을 변경후 학습을 진행한다.
 자세한 참조사항  https://woongjun-warehouse.tistory.com/category/%EB%94%A5%EB%9F%AC%EB%8B%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/face_identification
 여기서 참조하시면 됩니다.
+
+
+※계속 업로드중입니다.
