@@ -14,6 +14,7 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 ![image](https://user-images.githubusercontent.com/50165842/88173593-cd808c00-cc5d-11ea-950d-58fb085625ea.png)
 
 여기에서 각자 원하는 모델을 다운 받으시면 됩니다.
+
 ※필자는 tf1버전으로 진행하였다.
 
 ## Config파일을 변경후 학습을 진행한다.
