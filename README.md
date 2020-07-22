@@ -8,6 +8,12 @@ DateSet은 각자 알아서 구하시면 됩니다.
 저는 제가 직접 구한 face data를 사용하였습니다.
 
 ## Data를 TfRecord 타입으로 변환시킨다.
+This is a normal paragraph:
+
+    !python xml_to_csv.py
+    
+end code block.
+
 
 ## Pretrained_model을 다운로드
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md
