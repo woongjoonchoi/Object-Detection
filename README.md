@@ -10,7 +10,8 @@ DateSet은 각자 알아서 구하시면 됩니다.
 ## Data를 TfRecord 타입으로 변환시킨다.
 
 ## Pretrained_model을 다운로드
-https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
+![image](https://user-images.githubusercontent.com/50165842/88173593-cd808c00-cc5d-11ea-950d-58fb085625ea.png)
 
 여기에서 각자 원하는 모델을 다운 받으시면 됩니다.
 
