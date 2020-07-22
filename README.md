@@ -42,7 +42,6 @@ https://tzutalin.github.io/labelImg/
 ※https://github.com/datitran/raccoon_dataset 의 파일을 사용했습니다.
 
 ## Data를 tf.record타입으로 변환시키자.
-   TRAIN
     !python generate_tfrecord.py --csv_input=images/train_labels.csv --image_dir=images/train --output_path=train.record
     
    TEST
