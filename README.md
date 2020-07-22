@@ -28,14 +28,24 @@ https://tzutalin.github.io/labelImg/
 ![image](https://user-images.githubusercontent.com/50165842/88174992-26512400-cc60-11ea-807e-ec2c25d119a8.png)
 
 
+
+
 라벨링을 한 이미지와 xml들을  train,test로 나누어서images 라는 폴더에 저장한후 models/research/object_detection 안에  됩니다. 
 
-## Data를 TfRecord 타입으로 변환시킨다.
+## xml를 csv 타입으로 변환시킨다.
 
     !python xml_to_csv.py
 
+※images폴더안의   train,test라는 폴더안에 들어잇어야합니다.
+※현재 경로가 odels/research/object_detection 이어야 합니다.
 
+※https://github.com/datitran/raccoon_dataset 의 파일을 사용했습니다.
 
+## Data를 tf.record타입으로 변환시키자.
+    !python generate_tfrecord.py --csv_input=images/train_labels.csv --image_dir=images/train --output_path=train.record
+    
+    !python generate_tfrecord.py --csv_input=images/test_labels.csv --image_dir=images/test --output_path=test.record
+    
 ## Pretrained_model을 다운로드
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md
 ![image](https://user-images.githubusercontent.com/50165842/88173593-cd808c00-cc5d-11ea-950d-58fb085625ea.png)
