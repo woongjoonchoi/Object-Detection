@@ -1,8 +1,8 @@
-# Object-Detection
+## Object-Detection
 
 Tensorflow ObejectDetection API를 사용해본 것입니다.
 
-1.DataSet을 만든다
+## DataSet을 만든다
 
 DateSet은 각자 알아서 구하시면 됩니다.
 
