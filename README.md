@@ -118,7 +118,13 @@ Google Colab에서 진행하기 때문에 경로를 Colab에 맞춰서 바꿔줍
 </pre> 
 
 
-**※현재 경로를 ..**   
+**※현재 경로를 /content/models/research/object_detection/ 로 해주셔야 합니다.**       
+## Loading Model
+<pre>
+<code>
+!python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/ssd_mobilenet_v1_coco.config --trained_checkpoint_prefix training/model.ckpt-100 --output_directory inference_graph
+</code>
+</pre> 
 ## WebCamera 로 적용해보기
 
 저는 Colab에서 진행을 하였습니다.    Colab상에서 opencv로 웹캠 화면 제어가 되지 않습니다.    
