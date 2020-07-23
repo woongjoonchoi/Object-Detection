@@ -110,7 +110,10 @@ Google Colab에서 진행하기 때문에 경로를 Colab에 맞춰서 바꿔줍
 **※형광펜 칠한 부분만 수정하시면 작동합니다..**   
 **※추가적으로 바꾸고 싶은 파라미터는 알아서 바꾸시면 됩니다...**
 
+## WebCamera 로 적용해보기
 
+저는 Colab에서 진행을 하였습니다.    Colab상에서 opencv로 웹캠 화면 제어가 되지 않습니다.
+   따라서 , 저는 화면을 캡처해서 사진을 찍는 방향으로 진행하였습니다.
 
 **자세한 참조사항  https://woongjun-warehouse.tistory.com/category/%EB%94%A5%EB%9F%AC%EB%8B%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/face_identification
 여기서 참조하시면 됩니다.**
