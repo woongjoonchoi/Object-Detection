@@ -57,6 +57,13 @@ protobuf을 컴파일 하고 OD 패키지 설치
 </pre>
 </code>
 
+다운받은 모델이 잘 작동하는지 테스트를 합니다.
+
+![image](https://user-images.githubusercontent.com/50165842/88275656-b5ba0e00-cd18-11ea-838a-01fe936b3746.png)   
+
+잘 작동하면 위와 같은 화면이 나옵니다.
+
+
 ## DataSet을 만든다
 
 
