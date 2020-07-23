@@ -1,8 +1,61 @@
 # Object-Detection
 
 Tensorflow ObejectDetection API를 사용해본 것입니다.
+Python 환경이 따로 없으시면 Colab에서 하시는걸 추천합니다.   
+Colab에는 웬만한 라이브러리가 다운되어 있습니다.
+
+## 환경 구비하기
+<pre>
+<code>
+
+pip install --upgrade tensorflow==1.14.0
+</pre>
+</code>   
+
+코랩에서 Tensorflow 버전이 오류가 나므로 버전을 낮춰줍니다.   
+<pre>
+<code>
+!pip install Cython
+!apt-get install protobuf-compiler python-pil 
+</pre>
+</code>   
+Cython, protobuf 을 다운 받습니다.
+
+<pre>
+<code>
+
+!git clone https://github.com/tensorflow/models
+</pre>
+</code>
+
+training 에필요한 model repository를 다운받습니다.
 
 
+
+<pre>
+<code>
+%%bash
+cd models/research/
+protoc object_detection/protos/*.proto --python_out=.
+
+
+</pre>
+</code>
+<pre>
+<code>
+%set_env PYTHONPATH=/content/models/research:/content/models/research/slim
+</pre>
+</code>
+
+
+protobuf을 컴파일 하고 OD 패키지 설치
+
+<pre>
+<code>
+!python3 object_detection/builders/model_builder_test.py
+
+</pre>
+</code>
 
 ## DataSet을 만든다
 
@@ -65,7 +118,14 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 ![image](https://user-images.githubusercontent.com/50165842/88173593-cd808c00-cc5d-11ea-950d-58fb085625ea.png)
 
 여기에서 각자 원하는 모델을 다운 받으시면 됩니다.
+<pre>
+<code>
 
+
+!wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2018_01_28.tar.gz 
+!tar -xvf ssd_mobilenet_v1_coco_2018_01_28.tar.gz
+</pre>
+</code>
 ※필자는 tf1버전으로 진행하였다.
 ※필자는 coco모델을 다운받아 사용 하였습니다.
 
@@ -115,7 +175,8 @@ Google Colab에서 진행하기 때문에 경로를 Colab에 맞춰서 바꿔줍
 <code>
 !python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_coco.config
 </code>
-</pre> 
+</pre>    
+지금 캡쳐 해놓은 화면이 없지만 , step 당 loss들이 출력됩니다.
 
 
 **※현재 경로를 /content/models/research/object_detection/ 로 해주셔야 합니다.**       
