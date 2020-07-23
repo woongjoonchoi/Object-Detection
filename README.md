@@ -35,7 +35,19 @@ https://tzutalin.github.io/labelImg/
 ## xml를 csv 타입으로 변환시킨다.
 
     !python xml_to_csv.py
+메인 코드입니다.
 
+<pre>
+<code>
+    def main():
+    for folder in ['train', 'test']:
+        image_path = os.path.join(os.getcwd(), ('images/' + folder))
+        xml_df = xml_to_csv(image_path)
+        xml_df.to_csv(('images/'+folder+'_labels.csv'), index=None)
+        print('Successfully converted xml to csv.')
+</code>
+</pre> 
+        
 ※images폴더안의   train,test라는 폴더안에 들어잇어야합니다.
 ※현재 경로가 odels/research/object_detection 이어야 합니다.
 
