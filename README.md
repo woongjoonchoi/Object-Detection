@@ -70,7 +70,19 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 ※필자는 coco모델을 다운받아 사용 하였습니다.
 
 ## Config파일을 변경후 학습을 진행한다.
+<pre>
+<code>
+    item {
+    id: 1
+    name: 'face'
+    }
 
+</code>
+</pre> 
+메모장에서 labelmap.pbtxt 라는 파일명으로 위와같은 라벨맵을 만들어줍니다.
+"/content/models/research/object_detection/training/labelmap.pbtxt" 이 경로에 labelmap.pbtxt를 넣어주시면 됩니다.
+**※저는 face_detection만을 하엿기 때문에 face만 라벨을 지정했습니다.**
+**※본인 목적에 따라 라벨 개수를지정해주시면됩니다..**
 ![image](https://user-images.githubusercontent.com/50165842/88268770-ed6f8880-cd0d-11ea-8796-4a03863dd632.png)
 
 
