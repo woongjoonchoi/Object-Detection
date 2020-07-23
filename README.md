@@ -1,5 +1,7 @@
 # Object-Detection
 
+https://github.com/woongjoonchoi
+
 Tensorflow ObejectDetection API를 사용해본 것입니다.
 Python 환경이 따로 없으시면 Colab에서 하시는걸 추천합니다.   
 Colab에는 웬만한 라이브러리가 다운되어 있습니다.
