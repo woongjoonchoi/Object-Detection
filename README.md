@@ -158,7 +158,8 @@ def take_photo(filename='photo.jpg', quality=0.8):
   with open(filename, 'wb') as f:
     f.write(binary)
   return filename
-
+</code>
+</pre>   
    
 위 코드는 캡쳐한 화면을 저장하는 코드입니다.   
 <pre>
