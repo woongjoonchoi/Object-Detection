@@ -35,7 +35,19 @@ https://tzutalin.github.io/labelImg/
 ## xml를 csv 타입으로 변환시킨다.
 
     !python xml_to_csv.py
+메인 코드입니다.
 
+<pre>
+<code>
+    def main():
+    for folder in ['train', 'test']:
+        image_path = os.path.join(os.getcwd(), ('images/' + folder))
+        xml_df = xml_to_csv(image_path)
+        xml_df.to_csv(('images/'+folder+'_labels.csv'), index=None)
+        print('Successfully converted xml to csv.')
+</code>
+</pre> 
+        
 ※images폴더안의   train,test라는 폴더안에 들어잇어야합니다.
 ※현재 경로가 odels/research/object_detection 이어야 합니다.
 
@@ -55,10 +67,37 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 여기에서 각자 원하는 모델을 다운 받으시면 됩니다.
 
 ※필자는 tf1버전으로 진행하였다.
+※필자는 coco모델을 다운받아 사용 하였습니다.
 
 ## Config파일을 변경후 학습을 진행한다.
-자세한 참조사항  https://woongjun-warehouse.tistory.com/category/%EB%94%A5%EB%9F%AC%EB%8B%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/face_identification
-여기서 참조하시면 됩니다.
+
+![image](https://user-images.githubusercontent.com/50165842/88268770-ed6f8880-cd0d-11ea-8796-4a03863dd632.png)
+
+
+![image](https://user-images.githubusercontent.com/50165842/88268808-f9f3e100-cd0d-11ea-925b-bb7845332a7c.png)
+
+
+![image](https://user-images.githubusercontent.com/50165842/88268837-06783980-cd0e-11ea-956f-2ac1e25dcedc.png)
+
+
+위의 경로를 찬찬히 따라가면 config파일들이 나옵니다.
+
+![image](https://user-images.githubusercontent.com/50165842/88269061-56ef9700-cd0e-11ea-874f-8b4071641105.png)
+
+
+Google Colab에서 진행하기 때문에 경로를 Colab에 맞춰서 바꿔줍니다.
+
+**※config파일은 자신이 선택한 모델에 맞게 선택 하시면 됩니다.**
+
+![image](https://user-images.githubusercontent.com/50165842/88269344-d1b8b200-cd0e-11ea-9ae2-77685805a2d8.png)
+
+**※형광펜 칠한 부분만 수정하시면 작동합니다..**
+**※추가적으로 바꾸고 싶은 파라미터는 알아서 바꾸시면 됩니다...**
+
+
+
+**자세한 참조사항  https://woongjun-warehouse.tistory.com/category/%EB%94%A5%EB%9F%AC%EB%8B%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/face_identification
+여기서 참조하시면 됩니다.**
 
 
 ※계속 업로드중입니다.
