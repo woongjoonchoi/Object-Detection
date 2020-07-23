@@ -109,7 +109,7 @@ https://tzutalin.github.io/labelImg/
 </pre> 
         
 ※images폴더안의   train,test라는 폴더안에 들어잇어야합니다.
-※현재 경로가 odels/research/object_detection 이어야 합니다.
+※현재 경로가 models/research/object_detection 이어야 합니다.
 
 ※https://github.com/datitran/raccoon_dataset 의 파일을 사용했습니다.
 
@@ -133,8 +133,11 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 !tar -xvf ssd_mobilenet_v1_coco_2018_01_28.tar.gz
 </pre>
 </code>
-※필자는 tf1버전으로 진행하였다.
-※필자는 coco모델을 다운받아 사용 하였습니다.
+※파일의 다운로드 경로는 models/research/object_detection 입니다   
+※위와 같이 명령어를 쳐서 해도 됩니다.       
+※이게 어려우면 직접 다운받으신다음에 압축을 풀어주시면 됩니다.    
+※필자는 tf1버전으로 진행하였다.    
+※필자는 coco모델을 다운받아 사용 하였습니다.    
 
 ## Config파일을 변경후 학습을 진행한다.
 <pre>
