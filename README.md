@@ -82,7 +82,7 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 메모장에서 labelmap.pbtxt 라는 파일명으로 위와같은 라벨맵을 만들어줍니다.
 "/content/models/research/object_detection/training/labelmap.pbtxt" 이 경로에 labelmap.pbtxt , config파일 를 넣어주시면 됩니다.   
 
-legacy 폴더에있는 train파일을 상위폴더 object_detection에 복사해서 옮겨준다.
+legacy 폴더에있는 train파일을 상위폴더 object_detection에 복사해서 옮겨준다.   
 **※저는 face_detection만을 하엿기 때문에 face만 라벨을 지정했습니다.**
 
 **※본인 목적에 따라 라벨 개수를지정해주시면됩니다..**
