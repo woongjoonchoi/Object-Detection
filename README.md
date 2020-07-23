@@ -112,8 +112,8 @@ Google Colab에서 진행하기 때문에 경로를 Colab에 맞춰서 바꿔줍
 
 ## WebCamera 로 적용해보기
 
-저는 Colab에서 진행을 하였습니다.    Colab상에서 opencv로 웹캠 화면 제어가 되지 않습니다.
-   따라서 , 저는 화면을 캡처해서 사진을 찍는 방향으로 진행하였습니다.   
+저는 Colab에서 진행을 하였습니다.    Colab상에서 opencv로 웹캠 화면 제어가 되지 않습니다.    
+       따라서 , 저는 화면을 캡처해서 사진을 찍는 방향으로 진행하였습니다.   
    ![image](https://user-images.githubusercontent.com/50165842/88271139-b69b7180-cd11-11ea-9010-c72a7cb25ee1.png)    
       ![image](https://user-images.githubusercontent.com/50165842/88271179-c3b86080-cd11-11ea-8264-47aec63cc842.png)
     
