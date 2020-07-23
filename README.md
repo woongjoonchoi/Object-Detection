@@ -113,7 +113,15 @@ Google Colab에서 진행하기 때문에 경로를 Colab에 맞춰서 바꿔줍
 ## WebCamera 로 적용해보기
 
 저는 Colab에서 진행을 하였습니다.    Colab상에서 opencv로 웹캠 화면 제어가 되지 않습니다.
-   따라서 , 저는 화면을 캡처해서 사진을 찍는 방향으로 진행하였습니다.
+   따라서 , 저는 화면을 캡처해서 사진을 찍는 방향으로 진행하였습니다.   
+   ![image](https://user-images.githubusercontent.com/50165842/88271139-b69b7180-cd11-11ea-9010-c72a7cb25ee1.png)    
+      ![image](https://user-images.githubusercontent.com/50165842/88271179-c3b86080-cd11-11ea-8264-47aec63cc842.png)
+    
+    
+![image](https://user-images.githubusercontent.com/50165842/88271230-d16de600-cd11-11ea-8722-c42b3999db8d.png)
+
+
+
 
 **자세한 참조사항  https://woongjun-warehouse.tistory.com/category/%EB%94%A5%EB%9F%AC%EB%8B%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/face_identification
 여기서 참조하시면 됩니다.**
