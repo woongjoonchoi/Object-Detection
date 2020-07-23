@@ -133,7 +133,7 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 !tar -xvf ssd_mobilenet_v1_coco_2018_01_28.tar.gz
 </pre>
 </code>
-※파일의 다운로드 경로는 models/research/object_detection 입니다.    
+※파일의 다운로드 경로는 models/research/object_detection 입니다.      
 ※위와 같이 명령어를 쳐서 해도 됩니다.    
    
 ※이게 어려우면 직접 다운받으신다음에 압축을 풀어주시면 됩니다.    
