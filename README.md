@@ -80,8 +80,9 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 </code>
 </pre> 
 메모장에서 labelmap.pbtxt 라는 파일명으로 위와같은 라벨맵을 만들어줍니다.
-"/content/models/research/object_detection/training/labelmap.pbtxt" 이 경로에 labelmap.pbtxt를 넣어주시면 됩니다.
+"/content/models/research/object_detection/training/labelmap.pbtxt" 이 경로에 labelmap.pbtxt , config파일 를 넣어주시면 됩니다.   
 
+legacy 폴더에있는 train파일을 상위폴더 object_detection에 복사해서 옮겨준다.
 **※저는 face_detection만을 하엿기 때문에 face만 라벨을 지정했습니다.**
 
 **※본인 목적에 따라 라벨 개수를지정해주시면됩니다..**
@@ -109,7 +110,15 @@ Google Colab에서 진행하기 때문에 경로를 Colab에 맞춰서 바꿔줍
 
 **※형광펜 칠한 부분만 수정하시면 작동합니다..**   
 **※추가적으로 바꾸고 싶은 파라미터는 알아서 바꾸시면 됩니다...**
+## Training
+<pre>
+<code>
+!python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_coco.config
+</code>
+</pre> 
 
+
+**※현재 경로를 ..**   
 ## WebCamera 로 적용해보기
 
 저는 Colab에서 진행을 하였습니다.    Colab상에서 opencv로 웹캠 화면 제어가 되지 않습니다.    
