@@ -82,10 +82,22 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 
 위의 경로를 찬찬히 따라가면 config파일들이 나옵니다.
 
+![image](https://user-images.githubusercontent.com/50165842/88269061-56ef9700-cd0e-11ea-874f-8b4071641105.png)
 
 
-자세한 참조사항  https://woongjun-warehouse.tistory.com/category/%EB%94%A5%EB%9F%AC%EB%8B%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/face_identification
-여기서 참조하시면 됩니다.
+Google Colab에서 진행하기 때문에 경로를 Colab에 맞춰서 바꿔줍니다.
+
+**※config파일은 자신이 선택한 모델에 맞게 선택 하시면 됩니다.**
+
+![image](https://user-images.githubusercontent.com/50165842/88269344-d1b8b200-cd0e-11ea-9ae2-77685805a2d8.png)
+
+**※형광펜 칠한 부분만 수정하시면 작동합니다..**
+**※추가적으로 바꾸고 싶은 파라미터는 알아서 바꾸시면 됩니다...**
+
+
+
+**자세한 참조사항  https://woongjun-warehouse.tistory.com/category/%EB%94%A5%EB%9F%AC%EB%8B%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/face_identification
+여기서 참조하시면 됩니다.**
 
 
 ※계속 업로드중입니다.
